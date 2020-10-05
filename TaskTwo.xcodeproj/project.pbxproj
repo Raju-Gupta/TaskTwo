@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C8D0FA92525839F007C3B28 /* TaskTwo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TaskTwo copy-Info.plist"; path = "/Users/rajugupta/Desktop/Interview Task/TaskTwo/TaskTwo copy-Info.plist"; sourceTree = "<absolute>"; };
 		2CBEEE132525099000FCE6A2 /* TaskTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBEEE162525099000FCE6A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBEEE182525099000FCE6A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 			children = (
 				2CBEEE152525099000FCE6A2 /* TaskTwo */,
 				2CBEEE142525099000FCE6A2 /* Products */,
+				2C8D0FA92525839F007C3B28 /* TaskTwo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
