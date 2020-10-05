@@ -32,6 +32,17 @@ class UserListController: UIViewController, UISearchBarDelegate, UISearchControl
         searchcontroller.obscuresBackgroundDuringPresentation = false
     }
     
+    func searchBarSetUp123(){
+        self.extendedLayoutIncludesOpaqueBars = true
+        searchcontroller.searchResultsUpdater = self
+        definesPresentationContext = true
+        searchcontroller.searchBar.placeholder = "Search by Name"
+        searchcontroller.searchBar.delegate = self
+        navigationItem.searchController = searchcontroller
+        navigationItem.hidesSearchBarWhenScrolling = false
+        searchcontroller.obscuresBackgroundDuringPresentation = false
+    }
+    
     func userDataSetUp(){
         UserViewModel.getUserData { (user, error) in
             if user != nil{
